@@ -17,12 +17,12 @@ rss: /atom.xml
 
 ## widgets -- 6个左边小工具{@widgets:[notification,category,archive,popular,tagcloud,friends]}
 widgets:
-- 公告
-- 分类
-- 归档
+- notification
+- category
+- archive
 - popular
-- 标签
-- 友链
+- tagcloud
+- friends
 
 ## widgets settings --各个小工具的设置
 ### notification config --网站公告设置。支持 html 和 纯文本
