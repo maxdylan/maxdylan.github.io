@@ -1,0 +1,3 @@
+[submodule "themes/hexo-theme-ylion"]
+	path = themes/hexo-theme-ylion
+	url = https://github.com/GeekaholicLin/hexo-theme-ylion.git
