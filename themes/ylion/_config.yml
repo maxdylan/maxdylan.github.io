@@ -26,7 +26,7 @@ widgets:
 
 ## widgets settings --各个小工具的设置
 ### notification config --网站公告设置。支持 html 和 纯文本
-notification: 
+notification:
 
 ### categories-list config --文章分类设置{@cate_config:{@show_count:是否显示数字，@show_current: 是否高亮当前category}}
 cate_config:
@@ -163,11 +163,11 @@ disqus_shortname:
 duoshuo_shortname:
 ### gitment
 gitment:
-  enable: false
-  owner: GeekaholicLin
-  repo: geekaholiclin.github.io
-  client_id: aa2215dfc8ee944d1205
-  client_secret: 77cd2afa5d161bc0ab04639ed81300d808c6e22b
+  enable: true
+  owner: maxdylan
+  repo: maxdylan.github.io
+  client_id: 0b01d348652f6464dc51
+  client_secret: 6e8040c1e4f6a010417dc2d767e7bd8b9260b44c
   labels: "blog,gitment"
   perPage: 20
   maxCommentHeight:
