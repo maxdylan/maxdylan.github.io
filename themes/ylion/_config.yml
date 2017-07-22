@@ -26,9 +26,7 @@ widgets:
 
 ## widgets settings --各个小工具的设置
 ### notification config --网站公告设置。支持 html 和 纯文本
-notification: |-
-
-            <p>接下来，就是看我装*的时刻</p>
+notification: 
 
 ### categories-list config --文章分类设置{@cate_config:{@show_count:是否显示数字，@show_current: 是否高亮当前category}}
 cate_config:
