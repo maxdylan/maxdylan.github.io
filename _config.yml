@@ -32,7 +32,7 @@ widgets:
   - widget: tagcloud
   - widget: music
     icon: fas fa-compact-disc
-    title: "最近在听"
+    title: 一直在听
     more:
       icon: far fa-heart
       url: https://music.163.com/#/user/home?id=292088709
@@ -40,6 +40,16 @@ widgets:
     type: playlist    # song （单曲） album （专辑） playlist （歌单） search （搜索）
     id: 403703063     # 歌曲/专辑/歌单 ID
   - widget: toc
+  - widget: list
+    icon: fas fa-users
+    title: 友情链接
+    rows:
+      - name: 主题作者 xaoxuu's blog
+        url: https://xaoxuu.com
+      - name: 满天飞的猪
+        url: https://easycrew.github.io
+      - name: Jack Huang
+        url: http://jackhuang.online
 
 
 # URL
