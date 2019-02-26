@@ -8,7 +8,39 @@ subtitle: 每天一壶水，强壮中国人！
 description: b
 author: Tong
 language: zh-CN
+favicon: /img/sanji.jpg
 timezone:
+social:
+  - url: https://github.com/maxdylan
+    icon: fab fa-github
+  - icon: fas fa-music
+    url: https://music.163.com/#/user/home?id=292088709
+nav_menu:
+  - name: 主页
+    url: /
+    icon: fas fa-home
+  - name: rss
+    url: /atom.xml
+    icon: fas fa-rss
+
+widgets:
+  - widget: author
+    avatar: /img/sanji.jpg
+    jinrishici: true
+    social: true
+  - widget: category
+  - widget: tagcloud
+  - widget: music
+    icon: fas fa-compact-disc
+    title: "最近在听"
+    more:
+      icon: far fa-heart
+      url: https://music.163.com/#/user/home?id=292088709
+    server: netease   # netease（网易云音乐）tencent（QQ音乐） xiami（虾米） kugou（酷狗）
+    type: playlist    # song （单曲） album （专辑） playlist （歌单） search （搜索）
+    id: 403703063     # 歌曲/专辑/歌单 ID
+  - widget: toc
+
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -72,7 +104,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: ylion
+theme: material-x
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -80,3 +112,17 @@ deploy:
   type: git
   repo: https://github.com/maxdylan/maxdylan.github.io.git
   branch: master
+
+  # 评论
+  # valine https://leancloud.cn/dashboard/applist.html#/apps
+valine:
+  enable: true # 如果你想用Valine评论系统，请设置enable为true
+  app_id:  Ka2t4CTu1X0Ow6ieJ5MaXiue-gzGzoHsz
+  app_key:  KzFyu3NGj6WMWRfp0LKWOE8m
+  guest_info: nick,mail #valine comment header info
+  placeholder: 有没有啥想说的？ # valine comment input placeholder(like: Please leave your footprints )
+  avatar: retro # gravatar style https://valine.js.org/avatar
+  pageSize: 5 # comment list page size
+  verify: false # valine verify code (true/false)
+  notify: false # valine mail notify (true/false)
+  lang: zh-cn

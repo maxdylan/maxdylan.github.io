@@ -115,18 +115,18 @@ whichCategory: 0
 
 ### post footer
 ### 作者信息部分设置
-high_song: '这里不要瞎点 &#128541;'  ### 歌曲显示文字，若不需要该功能，则留空或移除
+# high_song: ''  ### 歌曲显示文字，若不需要该功能，则留空或移除
 #author_img: http://example.com/author.jpg
 author_img: img/sanji.jpg
 author_profile_page: /about.html
 ### 打赏，暂时不需要
-donate:
- text: '给我一杯忘情水 &#128536;' ### 打赏功能显示文字，若不需要，则留空或移除
- img: ### 打赏图片地址
-  - url: /img/sanji.jpg #http://example.com/alipay.jpg
-    alt: #'支付宝付款'
-  - url: /img/sanji.jpg #http://example.com/wechat.png
-    alt: #'微信付款'
+# donate:
+#  text: '给我一杯忘情水 &#128536;' ### 打赏功能显示文字，若不需要，则留空或移除
+#  img: ### 打赏图片地址
+#   - url: /img/sanji.jpg #http://example.com/alipay.jpg
+#     alt: #'支付宝付款'
+#   - url: /img/sanji.jpg #http://example.com/wechat.png
+#     alt: #'微信付款'
 
 ### support html&text like notification's support in this theme,
 ### but please don't use <li> tag
@@ -165,9 +165,9 @@ duoshuo_shortname:
 gitment:
   enable: true
   owner: maxdylan
-  repo: maxdylan.github.io
-  client_id: 0b01d348652f6464dc51
-  client_secret: 6e8040c1e4f6a010417dc2d767e7bd8b9260b44c
+  repo: 'maxdylan.github.io'
+  client_id: '0b01d348652f6464dc51'
+  client_secret: '6e8040c1e4f6a010417dc2d767e7bd8b9260b44c'
   labels: "blog,gitment"
   perPage: 20
   maxCommentHeight:

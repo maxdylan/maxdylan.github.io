@@ -6,9 +6,8 @@ tags:
     - git
 categories:
     - "前方有坑"
-description: 作为一个非前端开发人员，确实有些地方不理解
+description: 在使用Hexo+Github搭建遇到的问题和基本使用方法以及一些使用建议。
 ---
-[TOC]
 
 ## 前方有坑
 * 在github建库时，库的名字一定要是 `xxx.github.io`，不然会很难受。
